@@ -1,0 +1,35 @@
+{
+    "name": "keeptruckin",
+    "short_name": "keeptruckin",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Fleetio is a cloud-based fleet management platform that enables fleet managers to track and manage their vehicles, drivers, and assets in real-time. It allows managers to monitor fuel consumption, maintenance schedules, driver behavior, and other key metrics to optimize their fleet's performance and reduce costs.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
