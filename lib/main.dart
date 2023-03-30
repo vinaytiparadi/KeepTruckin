@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:keeptruckin/LoginRegisteration/get_started.dart';
 import 'package:keeptruckin/firebase_options.dart';
 
 void main() async{
@@ -25,9 +26,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         textTheme: GoogleFonts.sourceSans3TextTheme(),
-        colorSchemeSeed: Colors.blueAccent
+        colorSchemeSeed: Colors.orangeAccent,
       ),
-      // home: HomeScreeen(),
+      home: GetStarted(),
     );
   }
 }
