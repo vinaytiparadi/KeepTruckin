@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:keeptruckin/ChatBot/chat_screen.dart';
 import 'package:keeptruckin/constants.dart';
 import 'package:keeptruckin/deliveries.dart';
 
@@ -20,7 +21,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       body: screens[index],
-      floatingActionButton: FloatingActionButton.large(onPressed: () {}, child: const Icon(Icons.smart_toy_outlined)),
+      floatingActionButton: FloatingActionButton.large(onPressed: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => const ChatScreen()));
+      }, child: const Icon(Icons.smart_toy_outlined)),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: NavigationBar(
         height: scHeight(context)*0.09,

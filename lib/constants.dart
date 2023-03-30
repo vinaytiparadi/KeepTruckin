@@ -12,7 +12,6 @@ const workingColor = Color(0xFF3EC000);
 const completeColor = Color(0xFF547BD2);
 
 
-
 //height
 double scHeight(BuildContext context) {
   return MediaQuery.of(context).size.height;
