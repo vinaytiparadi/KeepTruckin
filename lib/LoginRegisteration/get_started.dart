@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:keeptruckin/LoginRegisteration/register.dart';
+import 'package:keeptruckin/home_screen.dart';
 
 class GetStarted extends StatelessWidget {
   GetStarted({Key? key}) : super(key: key);
@@ -71,10 +72,10 @@ class GetStarted extends StatelessWidget {
                                 MaterialPageRoute(
                                     builder: (ctx) => RegisterScreen()));
                           } else {
-                            // Navigator.pushReplacement(
-                            //     context,
-                            //     MaterialPageRoute(
-                            //         builder: (ctx) => HomeScreen()));
+                            Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (ctx) => HomeScreen()));
                           }
                         }
                       } catch (e) {

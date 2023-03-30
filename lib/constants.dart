@@ -11,6 +11,8 @@ const pendingColor = Color(0xFFF4CD00);
 const workingColor = Color(0xFF3EC000);
 const completeColor = Color(0xFF547BD2);
 
+
+
 //height
 double scHeight(BuildContext context) {
   return MediaQuery.of(context).size.height;
@@ -20,15 +22,6 @@ double scHeight(BuildContext context) {
 double scWidth(BuildContext context) {
   return MediaQuery.of(context).size.width;
 }
-
-List<String> ownerVehiclesList = [
-  'MH12DZ0100',
-  'MH13DD6544',
-  'MH12FF2646',
-  'MH12QE1000',
-  'MH14CM4445',
-  'Other External Vehicle'
-];
 
 ///hide keyboard
 void hideKeyboard(context) => FocusScope.of(context).requestFocus(FocusNode());
@@ -97,5 +90,39 @@ BoxDecoration boxDecoration(
       boxShadow: [
         BoxShadow(blurRadius: 5, color: textLightColor.withOpacity(0.5))
       ]);
+}
+
+class ReusableRow extends StatelessWidget {
+  final String title, value;
+  const ReusableRow({super.key, required this.title, required this.value});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(
+          left: 14.0, right: 14.0, top: 14.0, bottom: 5.0),
+      child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                title,
+                style:
+                const TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+              ),
+              Text(value,
+                  style: const TextStyle(
+                      fontSize: 20, fontWeight: FontWeight.w700)),
+            ],
+          ),
+          const SizedBox(
+            height: 5.0,
+          ),
+          // const Divider(color: Colors.grey, thickness: 0.2),
+        ],
+      ),
+    );
+  }
 }
 

@@ -23,9 +23,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
   TextEditingController districtController = TextEditingController();
   TextEditingController pinCodeController = TextEditingController();
 
-  String imageUrl = '';
-  String logoImageUrl = '';
-  String signatureImageUrl = '';
 
   @override
   Widget build(BuildContext context) {
