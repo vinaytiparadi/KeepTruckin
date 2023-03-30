@@ -11,6 +11,7 @@ const pendingColor = Color(0xFFF4CD00);
 const workingColor = Color(0xFF3EC000);
 const completeColor = Color(0xFF547BD2);
 
+const String google_api_key = "";
 
 //height
 double scHeight(BuildContext context) {

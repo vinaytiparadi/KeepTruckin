@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:keeptruckin/ChatBot/chat_screen.dart';
 import 'package:keeptruckin/constants.dart';
 import 'package:keeptruckin/deliveries.dart';
+import 'package:keeptruckin/truck_info_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -14,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int index = 0;
   final screens =[
     OrdersHomeScreen(),
-    const Text('Current Location'),
+    TruckInfoScreen(),
   ];
   @override
   Widget build(BuildContext context) {
