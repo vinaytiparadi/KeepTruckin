@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>821769277074-r8v566eju97pl7uqqt5kd7b7cfphuj3t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.821769277074-r8v566eju97pl7uqqt5kd7b7cfphuj3t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB4VS9G93vUTAOeoJk0Pzh47fJfZhrO-pU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>821769277074</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.v1ack.keeptruckin</string>
+	<key>PROJECT_ID</key>
+	<string>keeptruckin-bd438</string>
+	<key>STORAGE_BUCKET</key>
+	<string>keeptruckin-bd438.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:821769277074:ios:a3f0f4d51540ccfcca204b</string>
+</dict>
+</plist>
