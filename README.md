@@ -34,6 +34,10 @@ The data of vehicle speed and the weight load is used to make effective use of e
 
 ### Some Glimpses
 
+<img width="800" alt="sampleimages" src="https://raw.githubusercontent.com/vinaytiparadi/KeepTruckin/main/design1.png?token=GHSAT0AAAAAAB7RLHQ2R54LPBJXXMZMK776ZBGOOBQ">
+
+<img width="800" alt="sampleimages" src="https://raw.githubusercontent.com/vinaytiparadi/KeepTruckin/main/design2.png?token=GHSAT0AAAAAAB7RLHQ3UMZ2PTR5Y4NFTPBKZBGOOCQ">
+
 
 ## Getting Started
 
